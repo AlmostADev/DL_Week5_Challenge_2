@@ -14,7 +14,7 @@
       primer número con el segundo.
 
     > Luego de la operación se mostrará el resultado.
-3. Números Primos
+3. Números Primos :+1:
 
     > Crear un algoritmo donde el usuario ingrese un número y se deba mostrar en
       pantalla si el número es primo o no.

@@ -1,9 +1,18 @@
 Algoritmo PrimeNumber
 	Escribir "Ingresa un numero: "
 	Leer numPrimo
-	Si numPrimo%1 === 0 Entonces
-		acciones_por_verdadero
+	
+	counter <- 0
+	
+	Para i<-1 Hasta numPrimo Hacer
+		Si numPrimo%i == 0 Entonces
+			counter<-counter+1
+		Fin Si
+	FinPara
+	
+	Si counter = 2 Entonces
+		Escribir "El numero es primo"
 	SiNo
-		Escribir "El número ingresado no es primo."
+		Escribir "El número no es primo."
 	Fin Si
 FinAlgoritmo

@@ -3,7 +3,7 @@
 
 #### Task List
 
-1. Número entre 0 y 15
+1. Número entre 0 y 15 :+1:
 
     > Realizar un algoritmo que pida que el usuario ingrese un número entre 0 y 15,
       pedir el número hasta que se cumpla la condición.

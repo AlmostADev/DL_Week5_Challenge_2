@@ -2,11 +2,12 @@ Algoritmo PrimeNumber
 	Escribir "Ingresa un numero: "
 	Leer numPrimo
 	
-	counter <- 0
+	counter<-0 //Contador se le asigna valor 0
 	
-	Para i<-1 Hasta numPrimo Hacer
-		Si numPrimo%i == 0 Entonces
+	Para i<-1 Hasta numPrimo Hacer 
+		Si numPrimo%i == 0 Entonces //
 			counter<-counter+1
+			Escribir counter
 		Fin Si
 	FinPara
 	

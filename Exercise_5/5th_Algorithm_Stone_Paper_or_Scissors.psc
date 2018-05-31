@@ -6,27 +6,52 @@ Algoritmo StonePaperScissors
 	Escribir "1 - Papel"
 	Escribir "2 - Tijera"
 	Leer opc
-	opcionAzar <-  azar(4)	
+	opcionAzar <-  azar(3)
+	Escribir opcionAzar
 	Si opc <> opcionAzar Entonces
 		Si opc=0 Y opcionAzar=1 Entonces
 			Escribir "Gana Papel"
-		Fin Si
-		Si opc=0 Y opcionAzar=2 Entonces
-			Escribir "Gana Piedra"
-		Fin Si
-		Si opc=1 Y opcionAzar=0 Entonces
-			Escribir "Gana Papel"
-		Fin Si
-		Si opc=1 Y opcionAzar=2 Entonces
-			Escribir "Gana Tijera"
-		Fin Si
-		Si opc=2 Y opcionAzar=0 Entonces
-			Escribir "Gana Piedra"
-		Fin Si
-		Si opc=2 Y opcionAzar=1 Entonces
-			Escribir "Gana Tijera"
+		SiNo
+			Si opc=0 Y opcionAzar=2 Entonces
+				Escribir "Gana Piedra"
+			SiNo
+				Si opc=1 Y opcionAzar=0 Entonces
+					Escribir "Gana Papel"
+				SiNo
+					Si opc=1 Y opcionAzar=2 Entonces
+						Escribir "Gana Tijera"
+					SiNo
+						Si opc=2 Y opcionAzar=0 Entonces
+							Escribir "Gana Piedra"
+						SiNo
+							Si opc=2 Y opcionAzar=1 Entonces
+								Escribir "Gana Tijera"
+							Fin Si
+						Fin Si
+					Fin Si
+				Fin Si
+			Fin Si
 		Fin Si
 	SiNo
 		Escribir "Empate"
 	Fin Si
+	
+//	Si opc=0 Y opcionAzar=1 Entonces
+//		Escribir "Gana Papel"
+//	Fin Si
+//	Si opc=0 Y opcionAzar=2 Entonces
+//		Escribir "Gana Piedra"
+//	Fin Si
+//	Si opc=1 Y opcionAzar=0 Entonces
+//		Escribir "Gana Papel"
+//	Fin Si
+//	Si opc=1 Y opcionAzar=2 Entonces
+//		Escribir "Gana Tijera"
+//	Fin Si
+//	Si opc=2 Y opcionAzar=0 Entonces
+//		Escribir "Gana Piedra"
+//	Fin Si
+//	Si opc=2 Y opcionAzar=1 Entonces
+//		Escribir "Gana Tijera"
+//	Fin Si
 FinAlgoritmo

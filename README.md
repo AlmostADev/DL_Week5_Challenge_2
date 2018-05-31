@@ -24,7 +24,7 @@
 
     > Realizar algoritmo del mayor de 3 números, (una persona ingresa 3 números, el
       programa debe determinar cual es el mayor).
-5. Piedra, Papel o Tijera
+5. Piedra, Papel o Tijera :+1:
 
     > Un usuario ingresa piedra, papel o tijera, el computador escoge una al azar, se
       debe determinar quien gana.

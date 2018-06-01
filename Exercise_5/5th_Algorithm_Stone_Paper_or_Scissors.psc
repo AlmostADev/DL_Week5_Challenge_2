@@ -35,23 +35,4 @@ Algoritmo StonePaperScissors
 	SiNo
 		Escribir "Empate"
 	Fin Si
-	
-//	Si opc=0 Y opcionAzar=1 Entonces
-//		Escribir "Gana Papel"
-//	Fin Si
-//	Si opc=0 Y opcionAzar=2 Entonces
-//		Escribir "Gana Piedra"
-//	Fin Si
-//	Si opc=1 Y opcionAzar=0 Entonces
-//		Escribir "Gana Papel"
-//	Fin Si
-//	Si opc=1 Y opcionAzar=2 Entonces
-//		Escribir "Gana Tijera"
-//	Fin Si
-//	Si opc=2 Y opcionAzar=0 Entonces
-//		Escribir "Gana Piedra"
-//	Fin Si
-//	Si opc=2 Y opcionAzar=1 Entonces
-//		Escribir "Gana Tijera"
-//	Fin Si
 FinAlgoritmo
